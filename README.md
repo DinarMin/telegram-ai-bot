@@ -11,16 +11,20 @@ Basic template for implementation in the Telegram bot AI model LM-studio.
 ```
  git clone https://github.com/DinarMin/telegram-ai-bot.git
 ```
+2. 
+```
+npm install
+```
 
-2. Добавьте tg token в .env файл.
-3. Измените название модели в файле src/ai.ts (там будет комментария на определенной строке)
+3. Добавьте tg token в .env файл.
+4. Измените название модели в файле src/ai.ts (там будет комментария на определенной строке)
 (Не забудьте включить server API в LM studio во вкладке Developer.)
 
-4.
+5.
 ```bash
   tsc 
 ```
-5.
+6.
 ```
 node dist/bot.js 
 ```
