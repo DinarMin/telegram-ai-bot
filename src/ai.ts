@@ -5,7 +5,7 @@ export async function getAIRepsonse(message: string): Promise<string> {
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      model: "nous-hermes-q8/nous",
+      model: "nous-hermes-q8/nou", /* Название вашей модели/(eng: Name of your model) */
       messages: [
         { role: "system", content: "Ты дружелюбный помощник." },
         { role: "user", content: message },
